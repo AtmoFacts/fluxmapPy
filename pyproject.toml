@@ -36,7 +36,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest", "ruff", "pip-licenses", "pre-commit", "build", "twine", "nbmake", "jupytext"]
-docs = ["mkdocs-material", "mkdocstrings[python]", "mkdocs-jupyter"]
+docs = ["mkdocs>=1.6,<2", "mkdocs-material", "mkdocstrings[python]", "mkdocs-jupyter"]
 
 
 [project.urls]
