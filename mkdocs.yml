@@ -1,0 +1,21 @@
+site_name: fluxmapPy
+theme:
+  name: material
+  palette:
+    primary: deep orange
+    scheme: slate
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      execute: false
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+          options:
+            docstring_style: numpy
+nav:
+  - Home: index.md
+  - Tutorial: tutorials/workflow.ipynb
+  - API Reference: api/index.md

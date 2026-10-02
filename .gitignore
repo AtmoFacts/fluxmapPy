@@ -1,0 +1,46 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing / linting
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Large geospatial data — keep out of history
+*.tif
+*.tiff
+*.shp
+*.shx
+*.dbf
+*.gpkg
+
+# allow small test fixtures
+!tests/fixtures/*.tif
+!tests/fixtures/*.shp
+
+#mkdocs related
+site/
+.venv-docs/

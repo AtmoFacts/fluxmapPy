@@ -1,0 +1,12 @@
+# Code owners for AtmoFacts/fluxmapPy.
+
+
+# Packaging, licensing and governance carry legal or release consequences.
+/pyproject.toml         @akaplan-ui
+/LICENSE.txt            @stefanmet
+/NOTICE.txt             @stefanmet
+/CLA.md                 @stefanmet
+/.github/               @sambower-atmo
+
+# The public API surface: renames here break downstream users.
+/src/fluxmappy/__init__.py   @akaplan-ui

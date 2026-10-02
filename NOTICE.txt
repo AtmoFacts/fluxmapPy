@@ -1,0 +1,42 @@
+fluxmapPy
+Copyright (c) 2026 AtmoFacts, LLC. All rights reserved.
+
+This NOTICE file is informational. It does not add to, limit, or modify the
+MIT License in LICENSE.txt, which is the only license for this Software.
+
+PATENTS
+
+AtmoFacts, LLC and its licensors hold patents and pending patent applications
+relating to the FluxMapper flux-mapping methods and systems. Those methods are
+implemented in services provided separately by AtmoFacts, LLC and are not
+included in this Software. To the knowledge of AtmoFacts, LLC, using,
+modifying, and distributing this Software as provided does not practice those
+patents and does not require a license under them.
+
+The MIT License in LICENSE.txt is the only license granted for this Software.
+Beyond whatever rights that license itself conveys with respect to this
+Software as provided, no license or other right, whether express, implied, by
+estoppel, or otherwise, is granted under any patent or patent application
+owned or controlled by AtmoFacts, LLC or its licensors, including for any
+method, system, product, or service other than this Software. A license for
+the FluxMapper methods and systems is available only by separate written
+agreement with AtmoFacts, LLC. This paragraph does not assert that any use of
+this Software infringes any patent.
+
+TRADEMARKS
+
+"AtmoFacts", "FluxMapper", "FluxMap", and "fluxmapPy" are trademarks of
+AtmoFacts, LLC. The MIT License does not grant permission to use these
+trademarks or any AtmoFacts logo. You may use the word marks, without logos,
+only as reasonably necessary to truthfully identify the origin of this
+Software (for example, to state that your work is derived from or compatible
+with fluxmapPy), and only in a way that does not suggest sponsorship,
+affiliation, or endorsement by AtmoFacts, LLC. Modified versions and forks
+must not be named or branded in a way that suggests they are official
+AtmoFacts releases. Other names may be trademarks of their respective owners.
+
+CONTRIBUTIONS
+
+Contributions to this project are accepted under the Contributor License
+Agreement in CLA.md (see CONTRIBUTING.md). Contributions are by invitation
+until version 1.0.

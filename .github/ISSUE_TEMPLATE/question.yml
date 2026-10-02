@@ -1,0 +1,37 @@
+name: Question
+description: Ask how to use fluxmappy
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check the README and the function docstrings first — every
+        public function has a numpydoc Examples section.
+
+        Do not include customer or site data, internal hostnames, bucket
+        names, or credentials.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What are you trying to do, and where are you stuck?
+    validations:
+      required: true
+
+  - type: textarea
+    id: attempted
+    attributes:
+      label: What you have tried
+      description: Code you have already run, if any.
+      render: python
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: fluxmappy version
+      placeholder: "0.6.0"
+    validations:
+      required: false
